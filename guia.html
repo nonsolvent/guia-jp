@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ler em japonês no celular</title>
+
+<style>
+@font-face {
+    font-family: "Mincho";
+    src: url("mincho.ttf") format("truetype");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #222;
+    font-family: "Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 40px;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0057aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* All content lists share the same size as paragraphs */
+section ul {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+section li {
+    margin-bottom: 4px;
+}
+
+figure {
+    margin: 20px 0 30px;
+}
+
+.screens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 20px 0 30px;
+}
+
+.screens figure {
+    margin: 0;
+    flex: 1 1 200px;
+    max-width: 260px;
+}
+
+.screens.wide figure {
+    max-width: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    display: block;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 6px;
+}
+
+.note {
+    font-size: 16px;
+    color: #555;
+    background: #f6f6f6;
+    border-left: 4px solid #ddd;
+    padding: 10px 16px;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 36px 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Como ler em japonês no celular ou computador</h1>
+
+<nav>
+<ul>
+<li><a href="#livros">1. Lendo livros</a></li>
+<li><a href="#site">2. Lendo no navegador</a></li>
+<li><a href="#outros">3. Outros recursos</a></li>
+</ul>
+</nav>
+
+<section id="livros">
+
+<h2>1. Livros</h2>
+
+<p>
+    O aplicativo que recomendo para ler livros é o <a href="https://github.com/HuangAntimony/Hoshi-Reader-Android">Hoshi Reader</a>. Ele é um leitor de e-books que permite a consulta de dicionário sem interromper a leitura. Aqui, será mostrado como instalar para dispositivos Android, mas é parecido para outros dispositivos.
+</p>
+
+<h3>Passo 1 &ndash; Download</h3>
+
+<ul class="downloads">
+    <li><a href="https://github.com/HuangAntimony/Hoshi-Reader-Android/releases/download/v1.4.0/Hoshi-Reader-v1.4.0-arm64-v8a.apk">Android</a></li>
+    <li><a href="https://apps.apple.com/us/app/hoshi-reader/id6758244332">iOS</a></li>
+    <li><a href="https://github.com/Manhhao/Hoshi-Reader-Desktop/releases/download/v1.1.0/Hoshi.Reader_1.1.0_x64-setup.exe">Windows</a></li>
+    <li><a href="https://github.com/Manhhao/Hoshi-Reader-Desktop/releases/download/v1.1.0/Hoshi.Reader_1.1.0_aarch64.dmg">macOS</a></li>
+</ul>
+
+<h3>Passo 2 &ndash; Instalar</h3>
+
+<p>
+    No Android, ao abrir o APK baixado, o sistema pode avisar que o aplicativo de origem
+    (por exemplo, o Firefox) não tem permissão para instalar apps desconhecidos.
+    Toque em Configurações, ative a permissão para esse aplicativo e volte para instalar.
+</p>
+
+<div class="screens">
+    <figure>
+        <img src="images/hoshi_1.jpg" alt="Aviso de que o telefone não pode instalar apps desconhecidos desta fonte">
+        <figcaption>1. Aviso de bloqueio: toque em Configurações.</figcaption>
+    </figure>
+    <figure>
+        <img src="images/hoshi_2.jpg" alt="Tela Instalar apps desconhecidos">
+        <figcaption>2. Ative a permissão para o app que baixou o APK.</figcaption>
+    </figure>
+    <figure>
+        <img src="images/hoshi_3.jpg" alt="Confirmação de instalação do Hoshi Reader">
+        <figcaption>3. Toque em Instalar.</figcaption>
+    </figure>
+</div>
+
+<h3>Passo 3 &ndash; Configurar dicion&aacute;rios</h3>
+
+<p>
+    No Hoshi Reader, abra Settings &rarr; Dictionaries.
+</p>
+
+<div class="screens">
+    <figure>
+        <img src="images/hoshi_5.jpg" alt="Menu de configurações do Hoshi Reader">
+        <figcaption>1. Settings &rarr; Dictionaries.</figcaption>
+    </figure>
+    <figure>
+        <img src="images/hoshi_6.jpg" alt="Tela de dicionários vazia">
+        <figcaption>2. Nenhum dicionário instalado ainda.</figcaption>
+    </figure>
+</div>
+
+<p>
+    Depois, toque em Download Recommended Dictionaries e baixe os dois seguintes:
+</p>
+
+<ul class="downloads">
+    <li>JMdict (Term)</li>
+    <li>Jiten (Frequency)</li>
+</ul>
+
+<p class="note">
+    O dicionário de frequência é necessário para que as leituras mais comuns apareçam antes das raras.
+</p>
+
+<div class="screens">
+    <figure>
+        <img src="images/hoshi_7.jpg" alt="Lista de dicionários recomendados para download">
+        <figcaption>Dicionários recomendados: baixe o JMdict e o Jiten.</figcaption>
+    </figure>
+</div>
+
+<h3>Passo 4 &ndash; Importar um livro e começar a ler</h3>
+
+<p>
+    O livro precisa estar no formato .epub. Na aba Books,
+    toque em Import EPUB (ou no botão +) e escolha o arquivo.
+</p>
+
+<div class="screens">
+    <figure>
+        <img src="images/hoshi_4.jpg" alt="Biblioteca vazia com botão Import EPUB">
+        <figcaption>1. Biblioteca vazia: toque em Import EPUB.</figcaption>
+    </figure>
+    <figure>
+        <img src="images/hoshi_12.jpg" alt="livro importado">
+        <figcaption>2. Livro importado.</figcaption>
+    </figure>
+</div>
+
+<p>
+    Para consultar uma palavra durante a leitura, basta tocar nela. O dicionário aparece ao lado da palavra.
+</p>
+
+<p class="note">
+    Na versão para computador, é necessário apertar a tecla Alt para consultar uma palavra.
+</p>
+
+<div class="screens wide">
+    <figure>
+        <img src="images/hoshi_13.jpg" alt="店員">
+        <figcaption>Consulta de 店員 durante a leitura.</figcaption>
+    </figure>
+</div>
+
+<p>Também é possível exportar frases e palavras dos livros para o Anki.</p>
+
+</section>
+
+<section id="site">
+
+<h2>2. Lendo no navegador</h2>
+
+<p>
+    É possível instalar uma extensão de lookup, como o
+    <a href="https://yomitan.wiki/getting-started/">Yomitan</a>.
+    Aqui, será mostrado como configurar o Yomitan no Android. Ele possibilita ver o dicionário ao clicar em qualquer palavra, sem sair da página.
+</p>
+
+<h3>Passo 1 &ndash; Instalar o Firefox</h3>
+
+<p>
+    <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">Firefox para Android</a>.
+</p>
+
+<h3>Passo 2 &ndash; Instalar a extensão Yomitan</h3>
+
+<p>
+    No Firefox, acesse a
+    <a href="https://addons.mozilla.org/firefox/addon/yomitan/">página</a> da extensão.
+    Toque em Adicionar ao Firefox e confirme as permissões.
+</p>
+
+<p class="note">
+    Essa extensão funciona tanto no computador quanto em celulares Android.
+    O iOS não é suportado.
+</p>
+
+<div class="screens">
+    <figure>
+        <img src="images/yomitan_1.jpg" alt="Página do Yomitan no Firefox Add-ons">
+    </figure>
+</div>
+
+<h3>Passo 3 &ndash; Configurar dicion&aacute;rios</h3>
+
+<p>
+    Toque no menu de três pontos e abra Extensions &rarr; Yomitan &rarr; Settings.
+</p>
+
+<div class="screens">
+    <figure>
+        <img src="images/yomitan_9.jpg" alt="Menu do Firefox com Extensions">
+    </figure>
+    <figure>
+        <img src="images/yomitan_10.jpg" alt="Tela do Yomitan com a opção Settings">
+    </figure>
+</div>
+
+<p>
+    Toque em Get recommended dictionaries e baixe os seguintes:
+</p>
+
+<ul class="downloads">
+    <li>Jitendex</li>
+    <li>Jiten</li>
+</ul>
+
+<div class="screens">
+    <figure>
+        <img src="images/yomitan_3.jpg" alt="Página do Yomitan com Get recommended dictionaries">
+    </figure>
+    <figure>
+        <img src="images/yomitan_4.jpg" alt="Dicionários recomendados: Jitendex">
+    </figure>
+    <figure>
+        <img src="images/yomitan_5.jpg" alt="Dicionários recomendados: Jiten">
+    </figure>
+    <figure>
+        <img src="images/yomitan_7.jpg" alt="Lista de dicionários com Jiten e Jitendex">
+    </figure>
+</div>
+
+<h3>Passo 4 &ndash; Escolher o que ler</h3>
+
+<p>Algumas coisas para ler:</p>
+
+<ul class="coisas">
+    <li>aozora.gr.jp (livros antigos)</li>
+    <li>news.web.nhk (notícias)</li>
+    <li>letras de música</li>
+    <li>ttsu.app (leitor de .epub e .txt para navegador)</li>
+</ul>
+
+</section>
+
+<section id="outros">
+
+<h2>3. Outros recursos</h2>
+
+<h3>PopLingo &ndash; Aplicativo Android com lookup OCR</h3>
+
+<p>
+    <a href="https://play.google.com/store/apps/details?id=com.aktaris.chattranslator&hl=en">Disponível na Play Store</a>, é bom pra conseguir consultar palavras em fotos (ou mangas).
+</p>
+
+<p>Sites com alguns mangas gratuitos:</p>
+
+<ul class="sites">
+    <li>shonenjumpplus.com</li>
+    <li>bookwalker.jp</li>
+</ul>
+
+</section>
+
+</div>
+
+</body>
+</html>
